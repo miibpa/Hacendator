@@ -42,16 +42,3 @@
  - `1,6,1,10,3,10,3,0,99,5,0` => `30,6,1,10,3,10,3,0,99,5,7`
  - `1,17,18,17,2,17,0,18,3,18,17,0,99,543,135,34,17,18,0,9843` => `306,17,18,17,2,17,0,18,3,18,17,0,99,543,135,34,17,35,17,9843`
  
- 
- ### First Iteration
- 
- Our first goal is to create the acceptance test for the emulator's public APIs and implement a
- quick it using any language of our election and programming using any kind of paradigma (from spaguetti
- code to object oriented, up to us)
- 
- ### Second Iteration
- 
- After the successfull MVP the CMON want to rise the bar and they setted a couple of new rules:
- 
- - We can't mutate any value
- - We can't use loops
