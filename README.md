@@ -7,23 +7,23 @@
  perform all the calculations needed to obtain relations between products. Based on our
  culture about creating things AdHoc and following the mantra "Our house, our rules" the maximum
  dirigent organ in MercadonaTech (aka CMON) has disposed to go ahead to the next level and create our
- own computer: the *Hacendator* which could perform the calculations quickest and using less resources
+ own computer: the *Hacendator* which could perform the calculations quicker and using less resources
  to satisfy:
  
  - "El Jefe": Discovering better products
  - "El trabajador": We gonna have a lot of fun
- - "El proveeder": Because we can design a new computer
+ - "El proveedor": Because we can design a new computer
  - "La sociedad": Better carbon footprint
  - "El Capital": Improved costs
  
- Before to start we need to take into account that here in MercadonaTech we don't believe in
- BigBangs. We strongly believe in creating the maximum value with less effor, so instead of start
- a phisical device we are going to emulate our "Hacendator" to perform some tests and analyze the data.
+ Before start, we need to take into account that here in MercadonaTech we don't believe in
+ BigBangs. We strongly believe in creating the maximum value with less effort, so instead of start
+ a physical device we are going to emulate our "Hacendator" to perform some tests and analyze the data.
  
  ## The Emulator instruction set
  
  Our emulator will compute a set of instructions as an input and should return the resultant set
- of data. Each instruction is defined by 4 parameters represented as integers and separated by coma `1,0,2,1`. The first componen represents the operation code, the second is the left value address, third the right value address and in fourth position the destination address.
+ of data. Each instruction is defined by 4 parameters represented as integers and separated by coma `1,0,2,1`. The first component represents the operation code, the second is the left value address, third the right value address and in fourth position the destination address.
  
  Each operation code represents an arithmetic operation:
   - 1 -> Addition
